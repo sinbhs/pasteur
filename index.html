@@ -4,82 +4,114 @@
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=Edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'>
-        <title>pasteur index</title>
+        <meta name="description" content="목장부터 까다롭게 관리한 살아있는 우유, 국내 최초 저온살균우유 파스퇴르 몰 입니다.">
+        <meta name="keywords" content="파스퇴르, 파스퇴르몰, 파스퇴르우유, 저지방우유, 저온살균우유, 요구르트">
+        <meta property="og:title" content="파스퇴르 공식 온라인 몰">
+        <meta property="og:url" content="https://sinbhs.github.io/pasteur">
+        <meta property="og:image" content="https://sinbhs.github.io/pasteur/images/og_img.jpg">
+        <meta property="og:description" content="목장부터 까다롭게 관리한 살아있는 우유, 국내 최초 저온살균우유 파스퇴르 몰 입니다.">
+        <!-- twitter -->
+        <meta name="twitter:card" content="파스퇴르 공식 온라인 몰">
+        <meta name="twitter:title" content="파스퇴르 공식 온라인 몰">
+        <meta name="twitter:url" content="https://sinbhs.github.io/pasteur">
+        <meta name="twitter:image" content="https://sinbhs.github.io/pasteur/images/og_img.jpg">
+        <meta name="twitter:description" content="파스퇴르, 파스퇴르몰, 파스퇴르우유, 저지방우유, 저온살균우유, 요구르트">
+        <title>파스퇴르</title>
+        <!-- CSS -->
+        <!-- font -->
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="common/normalize.css">
         <link rel="stylesheet" href="fonts/fonts.css">
-        <link rel="stylesheet" href="style.css">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- normalize -->
+        <link rel="stylesheet" href="common/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- js -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="js/index.js"></script>
     </head>
 
     <body>
+        <!-- container -->
         <div class="container">
+            <!-- header -->
             <header>
-                <div class="navbar">
-                <h1><a href="index.html">로고</a></h1>
-                <nav>
-                    <ul class="nav">
-                        <li>
-                            <a href="about/aboutcompany.html">회사소개</a>
-                            <ul class="sidemenu">
-                                <li><a href="about/aboutcompany.html">기업소개</a></li>
-                                <li><a href="#">CEO 인사말</a></li>
-                                <li><a href="#">기업이념</a></li>
-                                <li><a href="#">연혁</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">제품소개</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">유아식 제품</a></li>
-                                <li><a href="#">우유 제품</a></li>
-                                <li><a href="#">발효유 제품</a></li>
-                                <li><a href="#">음료 제품</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">가정배달</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">가정배달 신청</a></li>
-                                <li><a href="#">주문내역 확인</a></li>
-                                <li><a href="#">대리점 검색</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">홍보센터</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">보도자료</a></li>
-                                <li><a href="#">홍보영상</a></li>
-                                <li><a href="#">광고갤러리</a></li>
-                                <li><a href="#">이벤트</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">파스퇴르스토리</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">파스퇴르 스토리</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">고객센터</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">고객센터</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="utill">
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">join us</a></li>
-                    </ul>
-                </nav>
-                <div class="mobilemenu">메뉴</div>
-                </div>
+                <!-- gnb -->
+                <div class="gnb">
+                    <!-- logo -->
+                    <h1><a href="index.html">로고</a></h1>
+                    <!-- navigation -->
+                    <nav>
+                        <ul class="nav">
+                            <li>
+                                <a href="about/aboutcompany.html">회사소개</a>
+                                <ul class="side_menu">
+                                    <li><a href="about/aboutcompany.html">기업소개</a></li>
+                                    <li><a href="#">CEO 인사말</a></li>
+                                    <li><a href="#">기업이념</a></li>
+                                    <li><a href="#">연혁</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">제품소개</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">유아식 제품</a></li>
+                                    <li><a href="#">우유 제품</a></li>
+                                    <li><a href="#">발효유 제품</a></li>
+                                    <li><a href="#">음료 제품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">가정배달</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">가정배달 신청</a></li>
+                                    <li><a href="#">주문내역 확인</a></li>
+                                    <li><a href="#">대리점 검색</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">홍보센터</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">홍보영상</a></li>
+                                    <li><a href="#">광고갤러리</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">파스퇴르스토리</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">파스퇴르 스토리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">고객센터</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">고객센터</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="utill">
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">join us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="mobile_menu">메뉴</div>
+                </div><!-- //gnb -->
             </header>
+            <!-- slider banner -->
             <div class="main">
-                <div class="mainbn">메인배너</div>
+                <a href="about/aboutcompany.html"><div class="mainbn">메인배너</div></a>
             </div>
+            <!-- introduce -->
             <div class="introduce">
                 <h2>파스퇴르 소개</h2>
                 <p>목장부터 까다롭게 관리한 살아있는 우유<br>국내 최초 "저온살균우유 파스퇴르"</p>
+                <!-- pasteur icon list -->
                 <div class="icon">
                     <div class="box1"><img src="images/1.png" alt="icon1"><p>우리나라 최초의<br>저온살균 우유</p></div>
                     <div class="box2"><img src="images/2.png" alt="icon2"><p>엄마가 안심하고<br>먹이는 유아식</p></div>
@@ -90,6 +122,7 @@
                     <div class="box7"><img src="images/7.png" alt="icon7"><p>일일 배송 시스템</p></div>
                     <div class="box8"><img src="images/8.png" alt="icon8"><p>고객 니즈를 반영한<br>맞춤형 제품 생산</p></div>
                 </div>
+                <!-- introduce - detail1 -->
                 <div class="int1">
                     <div class="pasteurmilk"><img src="images/int1.png" alt="파스퇴르우유"></div>
                     <div class="int1txt">
@@ -99,18 +132,20 @@
                     <img src="images/img_pasteur_milk.png" alt="파스퇴르우유로고">
                     <p>HEALTHY & HAPPY (건강과 행복, 푸르게)<br><span>HUMAN (인간, 아름답게)</span><br><strong>NATURE (자연, 깨끗하게)</strong></p>
                     </div>
-                    <div class="morebox"><a href="#">더보기</a></div>
+                    <div class="more_btn"><a href="#">더보기</a></div>
                     </div>
                 </div>
+                <!-- introduce - detail2 -->
                 <div class="int2">
                     <div class="milkbar"><img src="images/int2.jpg" alt="파스퇴르밀크바"></div>
                     <div class="int2txt">
                     <h2>고객과 소통하기 위한<br>파스퇴르의 플래그십 스토어</h2>
                     <img src="images/pasteurMilkbar.PNG" alt="MilkBarlogo">
                     <p>저온살균우유의 우수성을 직접 체험하게 하기 위한 공간으로 2016년 플래그십 스토어입니다.</p>
-                    <div class="morebox"><a href="#">더보기</a></div>
+                    <div class="more_btn"><a href="#">더보기</a></div>
                     </div>
                 </div>
+                <!-- center banner -->
                 <div class="int3">
                     <div class="subbn">
                         <div class="prev">이전 버튼</div>
@@ -119,12 +154,13 @@
                     </div>
                     <h2>목장부터 까다롭게 관리한 살아있는 우유<br>국내 최초 <span>"저온살균우유 파스퇴르"</span></h2>
                     <p>파스퇴르는 1987년 국내 최초 저온살균우유 ‘파스퇴르 후레쉬우유’를 출시한 이래,<br>농후 발효유 ‘쾌변’, MSD공법 ‘위드맘(With Mom)’ 등 수많은 고품격 유제품을 출시하며<br>유제품 전문브랜드로 성장해왔습니다.</p>
+                    <!-- product -->
                     <div class="product">
                         <section class="product1">
                             <div class="img1">우유팩</div>
                             <div class="bot1">
                             <h3>무항생제인증 바른목장 우유(팩)</h3>
-                            <p>국가로부터 엄격한 기준에 의해, '친환경 무항생제 인증'을 받은 목장의 원유만 별도 집유하여 생산한 우유.</p>
+                            <p>국가로부터 엄격한 기준에 의해, '친환경 무항생제 인증'을 받은 목장만 집유하여 생산한 우유.</p>
                             </div>
                         </section>
                         <section class="product2">
@@ -162,12 +198,12 @@
             <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.7490330669866!2d126.89056471559074!3d37.537412879803334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9ec6d32f8dd9%3A0x8d851299e22cab55!2z7ISc7Jq47Yq567OE7IucIOyYgeuTse2PrOq1rCDslpHtj4nrj5k16rCAIOyWke2PieuhnDIx6ri4IDEw!5e0!3m2!1sko!2skr!4v1597648139687!5m2!1sko!2skr" width="100%" height="490" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
             <!-- contact -->
             <div class="contact">
-                <div class="contactmain">
+                <div class="contact_main">
                 <h2>contact</h2>
                 <p>양평동(본사) 롯데푸드(주) 파스퇴르</p>
                 <p>(07207) 서울특별시 영등포구 양평로 21길 10(서울특별시 영등포구 양평동5가 20 롯데양평빌딩)<br>전화 : 02-2168-5252<br>팩스 : 02-2679-1090<br>주문전화 : 080-000-1000 (자동주문)</p>
                 </div>
-                <div class="morebox"><a href="#">지점 더보기</a></div>
+                <div class="more_btn"><a href="#">지점 더보기</a></div>
             </div>
             <!-- familysite -->
             <div class="title"><h2>famliy site</h2></div>
@@ -181,7 +217,16 @@
                 <div class="box7"><img src="images/fms7.png" alt="롯데월드"></div>
                 <div class="box8"><img src="images/fms8.png" alt="엔젤리너스"></div>
             </div>
-            <footer>copyright©2020 by lottefoods co., ltd. all right reserved</footer>
+            <!-- footer -->
+            <footer>
+                <p>copyright&copy;2020 by lottefoods co., ltd. all right reserved</p>
+                <ul class="link">
+                    <li><a href="https://sinbhs.github.io/portfolio" target="_blank">포트폴리오 바로가기</a></li>
+                    <li><a href="https://github.com/sinbhs" target="_blank">깃허브 바로가기</a></li>
+                </ul>
+            </footer>
         </div>
+        <!-- scrollTop -->
+        <a class="scrollTop"></a>
     </body>
 </html>

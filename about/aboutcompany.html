@@ -4,77 +4,109 @@
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=Edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'>
-        <title>pasteur about</title>
+        <meta name="description" content="목장부터 까다롭게 관리한 살아있는 우유, 국내 최초 저온살균우유 파스퇴르 몰 입니다.">
+        <meta name="keywords" content="파스퇴르, 파스퇴르몰, 파스퇴르우유, 저지방우유, 저온살균우유, 요구르트">
+        <meta property="og:title" content="파스퇴르 공식 온라인 몰">
+        <meta property="og:url" content="https://sinbhs.github.io/pasteur">
+        <meta property="og:image" content="https://sinbhs.github.io/pasteur/images/og_img.jpg">
+        <meta property="og:description" content="목장부터 까다롭게 관리한 살아있는 우유, 국내 최초 저온살균우유 파스퇴르 몰 입니다.">
+        <!-- twitter -->
+        <meta name="twitter:card" content="파스퇴르 공식 온라인 몰">
+        <meta name="twitter:title" content="파스퇴르 공식 온라인 몰">
+        <meta name="twitter:url" content="https://sinbhs.github.io/pasteur">
+        <meta name="twitter:image" content="https://sinbhs.github.io/pasteur/images/og_img.jpg">
+        <meta name="twitter:description" content="파스퇴르, 파스퇴르몰, 파스퇴르우유, 저지방우유, 저온살균우유, 요구르트">
+        <title>파스퇴르</title>
+        <!-- CSS -->
+        <!-- font -->
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="76x76" href="../images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- normalize -->
         <link rel="stylesheet" href="../common/normalize.css">
+        <!-- about company -->
         <link rel="stylesheet" href="aboutcompany.css">
+        <!-- js -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="js/aboutcompany.js"></script>
     </head>
 
     <body>
+        <!-- container -->
         <div class="container">
+            <!-- header -->
             <header>
-                <div class="navbar">
-                <h1><a href="../index.html">로고</a></h1>
-                <nav>
-                    <ul class="nav">
-                        <li>
-                            <a href="aboutcompany.html">회사소개</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">기업소개</a></li>
-                                <li><a href="#">CEO 인사말</a></li>
-                                <li><a href="#">기업이념</a></li>
-                                <li><a href="#">연혁</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">제품소개</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">유아식 제품</a></li>
-                                <li><a href="#">우유 제품</a></li>
-                                <li><a href="#">발효유 제품</a></li>
-                                <li><a href="#">음료 제품</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">가정배달</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">가정배달 신청</a></li>
-                                <li><a href="#">주문내역 확인</a></li>
-                                <li><a href="#">대리점 검색</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">홍보센터</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">보도자료</a></li>
-                                <li><a href="#">홍보영상</a></li>
-                                <li><a href="#">광고갤러리</a></li>
-                                <li><a href="#">이벤트</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">파스퇴르스토리</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">파스퇴르 스토리</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">고객센터</a>
-                            <ul class="sidemenu">
-                                <li><a href="#">고객센터</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="utill">
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">join us</a></li>
-                    </ul>
-                </nav>
-                <div class="mobilemenu">메뉴</div>
+                <!-- gnb -->
+                <div class="gnb">
+                    <!-- logo -->
+                    <h1><a href="../index.html">로고</a></h1>
+                    <!-- navigation -->
+                    <nav>
+                        <ul class="nav">
+                            <li>
+                                <a href="aboutcompany.html">회사소개</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">기업소개</a></li>
+                                    <li><a href="#">CEO 인사말</a></li>
+                                    <li><a href="#">기업이념</a></li>
+                                    <li><a href="#">연혁</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">제품소개</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">유아식 제품</a></li>
+                                    <li><a href="#">우유 제품</a></li>
+                                    <li><a href="#">발효유 제품</a></li>
+                                    <li><a href="#">음료 제품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">가정배달</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">가정배달 신청</a></li>
+                                    <li><a href="#">주문내역 확인</a></li>
+                                    <li><a href="#">대리점 검색</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">홍보센터</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">홍보영상</a></li>
+                                    <li><a href="#">광고갤러리</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">파스퇴르스토리</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">파스퇴르 스토리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">고객센터</a>
+                                <ul class="side_menu">
+                                    <li><a href="#">고객센터</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="utill">
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">join us</a></li>
+                        </ul>
+                    </nav>
+                    <!-- mobile menu -->
+                    <div class="mobile_menu">메뉴</div>
                 </div>
             </header>
-            <div class="mainbanner">
+            <!-- banner & about menu list -->
+            <div class="main_banner">
                 <ul class="about_list">
                     <li><a href="#">기업소개</a></li>
                     <li><a href="#">CEO 인사말</a></li>
@@ -82,6 +114,7 @@
                     <li><a href="#">연혁</a></li>
                 </ul>
             </div>
+            <!-- contents -->
             <div class="contents">
                 <section class="content1">
                     <img src="../images/subpage01.png" alt="롯데푸드">
@@ -106,30 +139,41 @@
                     </div>
                 </section>
             </div>
-            <div class="iconbox">
-                <section class="icon1">
+            <!-- Icon Box -->
+            <div class="icon_box">
+                <div class="icon1">
                     <img src="../images/icon1.png" alt="아이콘1">
                     <p>최신 설비</p>
-                </section>
-                <section class="icon2">
+                </div>
+                <div class="icon2">
                     <img src="../images/icon2.png" alt="아이콘2">
                     <p>축적된 기술과 정성</p>
-                </section>
-                <section class="icon3">
+                </div>
+                <div class="icon3">
                     <img src="../images/icon3.png" alt="아이콘3">
                     <p>엄선된 좋은 원료</p>
-                </section>
-            </div>
-            <div class="botimg">
-                <img src="../images/aboutcompany1.png" alt="img1">
-                <div class="subimg">
-                    <img src="../images/aboutcompany1.png" alt="subimg1">
-                    <img src="../images/aboutcompany2.png" alt="subimg2">
-                    <img src="../images/aboutcompany3.png" alt="subimg3">
-                    <img src="../images/aboutcompany4.png" alt="subimg4">
                 </div>
             </div>
-            <footer>copyright©2020 by lottefoods co., ltd. all right reserved</footer>
+            <!-- gallery -->
+            <div class="bot_img">
+                <div class="gallery"><img src="../images/aboutcompany1.png" alt="img1"></div>
+                <ul class="sub_img">
+                    <li><img src="../images/aboutcompany1.png" alt="subimg1" class="active"></li>
+                    <li><img src="../images/aboutcompany2.png" alt="subimg2"></li>
+                    <li><img src="../images/aboutcompany3.png" alt="subimg3"></li>
+                    <li><img src="../images/aboutcompany4.png" alt="subimg4"></li>
+                </ul>
+            </div>
+            <!-- footer -->
+            <footer>
+                <p>copyright©2020 by lottefoods co., ltd. all right reserved</p>
+                <ul class="link">
+                    <li><a href="https://sinbhs.github.io/portfolio" target="_blank">포트폴리오 바로가기</a></li>
+                    <li><a href="https://github.com/sinbhs" target="_blank">깃허브 바로가기</a></li>
+                </ul>
+            </footer>
         </div>
+        <!-- scrollTop -->
+        <a class="scrollTop"></a>
     </body>
 </html>
