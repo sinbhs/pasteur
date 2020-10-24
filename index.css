@@ -8,7 +8,7 @@ img {vertical-align: top;}
 ::selection {background-color:#3e5d40; color:#fff;}
 ::-moz-selection {background-color:#3e5d40; color:#fff;}
 ::-webkit-selection {background-color:#3e5d40; color:#fff;}
-.more_btn a {color:#111; display:block; width:170px; margin-bottom:150px; padding:20px 0; border:1px solid #111; text-align:center;}
+.more_btn a {color:#111; display:block; width:170px; margin:0 auto 150px; padding:20px 0; border:1px solid #111; text-align:center;}
 .more_btn a:hover, .more_btn a:focus {color:#fff; background-color: #111;}
 /* font setting */
 body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Apple SD Gothic Neo",sans-serif; text-align: center; color:#121f38;}
