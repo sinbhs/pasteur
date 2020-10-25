@@ -25,7 +25,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 /* nav */
 .container header nav {display: none;}
 /* mobile menu */
-.container header .mobile_menu {text-indent: -9999px; background: url(images/menu.png) no-repeat center/contain; width:18px; height:18px; cursor: pointer;}
+.container header .mobile_menu {text-indent: -9999px; background: url(images/menu.png) no-repeat center/contain; width:28px; height:28px; cursor: pointer;}
 
 /* introduce */
 .container .introduce {margin-top:615px;}
@@ -66,7 +66,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 .container .introduce .int3 h2 {font-size:19px; font-weight: normal; color:#121f38; padding:256px 0 25px; font-family:'KoreanSWGI1R',sans-serif;}
 .container .introduce .int3 h2 span {color:#00ad53;}
 .container .introduce .int3 p {margin:0; margin-bottom: 78px; font-size: 14px; color:#4f4f4f;}
-.container .introduce .int3 p:nth-of-type(1) {display: none;}
+.container .introduce .int3 .pc_txt {display: none;}
 
 /* product */
 .container .product {text-align:left; padding-bottom: 48px; display:flex; flex-direction: column; align-items: center;}
@@ -157,7 +157,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 
      /* introduce */
      .container .introduce {margin:0;}
-     .container .introduce h2 {padding:120px 0 0 15px; font-size: 39px;}
+     .container .introduce h2 {padding:120px 0 15px 0; font-size: 39px;}
      .container .introduce > p {font-size:18px; margin-bottom:85px;}
      
      /* icon */
@@ -199,8 +199,8 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
      .container .introduce .int3 .subbn p {font-size: 38px;}
      .container .introduce .int3 h2 {padding:460px 0 20px; font-size:38px;}
      .container .introduce .int3 p {font-size:16px; margin-bottom:135px;}
-     .container .introduce .int3 p:nth-of-type(1) {display: block;}
-     .container .introduce .int3 p:nth-of-type(2) {display: none;}
+     .container .introduce .int3 .pc_txt {display: block;}
+     .container .introduce .int3 .mobile_txt {display: none;}
 
      /* product */
      .container .product {flex-direction: row; justify-content: center; width:76.82%; margin:0 auto; padding-bottom:160px;}
