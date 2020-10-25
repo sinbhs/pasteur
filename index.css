@@ -24,8 +24,21 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 .container header h1 a {display:block; width:97px; text-indent: -9999px; background: url(images/logo.png) no-repeat center/contain; background-size: 97px;}
 /* nav */
 .container header nav {display: none;}
+
 /* mobile menu */
-.container header .mobile_menu {text-indent: -9999px; background: url(images/menu.png) no-repeat center/contain; width:28px; height:28px; cursor: pointer;}
+.container header .mobile_menu {text-indent: -9999px; background: url(images/menu.png) no-repeat center/contain; width:23px; height:23px; cursor: pointer;}
+
+/* mobile menu overlay */
+.container header .overlay_menu {width:100%; box-sizing: border-box; padding:0 21px; background-color: #fff; position: fixed; top:0; left:0; z-index:999; display: none;}
+.container header .overlay_menu.on {display: block;}
+.container header .overlay_menu .close_btn {width:23px; position: absolute; top:25px; right:21px;}
+.container header .overlay_menu .close_btn img {width:100%;}
+.container header .overlay_menu ul {padding-top: 73px;}
+.container header .overlay_menu ul li {padding-bottom:20px; font-size: 20px; font-family: 'Noto Sans KR',"Helvetica Neue","Apple SD Gothic Neo",sans-serif;}
+
+/* overlay_menu mask */
+.mask {position:fixed; top:0; left:0; width: 100%; height:100%; background-color: #000; z-index: 1; opacity: 0; visibility: hidden; transition: .3s ease;}
+.mask.on {opacity: 0.5; visibility: visible;}
 
 /* introduce */
 .container .introduce {margin-top:615px;}
