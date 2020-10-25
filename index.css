@@ -33,7 +33,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 .container header .overlay_menu.on {display: block;}
 .container header .overlay_menu .close_btn {width:23px; position: absolute; top:25px; right:21px;}
 .container header .overlay_menu .close_btn img {width:100%;}
-.container header .overlay_menu ul {padding-top: 73px;}
+.container header .overlay_menu ul {padding: 73px 0 30px;}
 .container header .overlay_menu ul li {padding-bottom:20px; font-size: 20px; font-family: 'Noto Sans KR',"Helvetica Neue","Apple SD Gothic Neo",sans-serif;}
 
 /* overlay_menu mask */
