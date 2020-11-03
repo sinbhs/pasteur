@@ -1,4 +1,4 @@
-# Pasteur_redesign
+# Portfolio Work - Pasteur
 [리뉴얼된 파스퇴르 반응형 페이지 바로 가기](https://sinbhs.github.io/pasteur/)
 
 **Portfolio Work** - **Renewal pasteur company** website (design&amp;develop)
