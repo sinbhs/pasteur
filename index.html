@@ -29,9 +29,13 @@
         <meta name="theme-color" content="#ffffff">
         <!-- normalize -->
         <link rel="stylesheet" href="common/normalize.css">
+        <!-- aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- index -->
         <link rel="stylesheet" href="index.css">
         <!-- js -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/index.js"></script>
     </head>
 
@@ -48,9 +52,9 @@
                     <nav>
                         <ul class="nav">
                             <li>
-                                <a href="about/aboutcompany.html">회사소개</a>
+                                <a href="about/about_company.html">회사소개</a>
                                 <ul class="side_menu">
-                                    <li><a href="about/aboutcompany.html">기업소개</a></li>
+                                    <li><a href="about/about_company.html">기업소개</a></li>
                                     <li><a href="#">CEO 인사말</a></li>
                                     <li><a href="#">기업이념</a></li>
                                     <li><a href="#">연혁</a></li>
@@ -107,7 +111,7 @@
                     <div class="close_btn"><img src="images/close_menu.png" alt="close_btn"></div>
                     <ul>
                         <li><a href="index.html">홈</a></li>
-                        <li><a href="about/aboutcompany.html">회사소개</a></li>
+                        <li><a href="about/about_company.html">회사소개</a></li>
                         <li><a href="#">제품소개</a></li>
                         <li><a href="#">가정배달</a></li>
                         <li><a href="#">홍보센터</a></li>
@@ -118,7 +122,7 @@
             </header>
             <!-- slider banner -->
             <div class="main">
-                <a href="about/aboutcompany.html"><div class="mainbn">메인배너</div></a>
+                <a href="about/about_company.html"><div class="mainbn">메인배너</div></a>
             </div>
             <!-- introduce -->
             <div class="introduce">
@@ -126,19 +130,51 @@
                 <p>목장부터 까다롭게 관리한 살아있는 우유<br>국내 최초 "저온살균우유 파스퇴르"</p>
                 <!-- pasteur icon list -->
                 <div class="icon">
-                    <div class="box1"><img src="images/1.png" alt="icon1"><p>우리나라 최초의<br>저온살균 우유</p></div>
-                    <div class="box2"><img src="images/2.png" alt="icon2"><p>엄마가 안심하고<br>먹이는 유아식</p></div>
-                    <div class="box3"><img src="images/3.png" alt="icon3"><p>고객의 건강을 먼저<br>생각하는 파스퇴르 제품</p></div>
-                    <div class="box4"><img src="images/4.png" alt="icon4"><p>세계가 사랑하는<br>파스퇴르</p></div>
-                    <div class="box5"><img src="images/5.png" alt="icon5"><p>파스퇴르의 플래그십 스토어<br>'파스퇴르 밀크바(Milk Bar)'</p></div>
-                    <div class="box6"><img src="images/6.png" alt="icon6"><p>최첨단 위생설비의<br>생산공정</p></div>
-                    <div class="box7"><img src="images/7.png" alt="icon7"><p>일일 배송 시스템</p></div>
-                    <div class="box8"><img src="images/8.png" alt="icon8"><p>고객 니즈를 반영한<br>맞춤형 제품 생산</p></div>
+                    <div class="box1">
+                        <div class="aos_box" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="0">
+                            <img src="images/1.png" alt="icon1"><p>우리나라 최초의<br>저온살균 우유</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box2">
+                        <div class="aos_box" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">
+                            <img src="images/2.png" alt="icon2"><p>엄마가 안심하고<br>먹이는 유아식</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box3">
+                        <div class="aos_box" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
+                            <img src="images/3.png" alt="icon3"><p>고객의 건강을 먼저<br>생각하는 파스퇴르 제품</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box4">
+                        <div class="aos_box" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+                            <img src="images/4.png" alt="icon4"><p>세계가 사랑하는<br>파스퇴르</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box5">
+                        <div class="aos_box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                            <img src="images/5.png" alt="icon5"><p>파스퇴르의 플래그십 스토어<br>'파스퇴르 밀크바(Milk Bar)'</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box6">
+                        <div class="aos_box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                            <img src="images/6.png" alt="icon6"><p>최첨단 위생설비의<br>생산공정</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box7">
+                        <div class="aos_box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                            <img src="images/7.png" alt="icon7"><p>일일 배송 시스템</p>
+                        </div><!-- //aos box -->
+                    </div>
+                    <div class="box8">
+                        <div class="aos_box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+                            <img src="images/8.png" alt="icon8"><p>고객 니즈를 반영한<br>맞춤형 제품 생산</p>
+                        </div><!-- //aos box -->
+                    </div>
                 </div>
                 <!-- introduce - detail1 -->
                 <div class="int1">
-                    <div class="pasteurmilk"><img src="images/int1.png" alt="파스퇴르우유"></div>
-                    <div class="int1txt">
+                    <div class="pasteurmilk" data-aos="fade-down" data-aos-duration="1200"  data-aos-delay="100"><img src="images/int1.png" alt="파스퇴르우유"></div>
+                    <div class="int1txt" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
                     <h2>건강한 저온살균우유 브랜드<br>파스퇴르 우유</h2>
                     <p>63℃에서 30분간 살균하는<br>저온살균공법(LTLT공법)으로 만든<br>파스퇴르의 대표적 저온살균 우유 브랜드입니다.</p>
                     <div class="bot">
@@ -150,8 +186,8 @@
                 </div>
                 <!-- introduce - detail2 -->
                 <div class="int2">
-                    <div class="milkbar"><img src="images/int2.jpg" alt="파스퇴르밀크바"></div>
-                    <div class="int2txt">
+                    <div class="milkbar" data-aos="fade-down" data-aos-duration="1200"><img src="images/int2.jpg" alt="파스퇴르밀크바"></div>
+                    <div class="int2txt" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
                     <h2>고객과 소통하기 위한<br>파스퇴르의 플래그십 스토어</h2>
                     <img src="images/pasteurMilkbar.PNG" alt="MilkBarlogo">
                     <p>저온살균우유의 우수성을 직접 체험하게 하기 위한 공간으로 2016년 플래그십 스토어입니다.</p>
@@ -162,7 +198,7 @@
                 <div class="int3">
                     <div class="subbn">
                         <div class="prev">이전 버튼</div>
-                        <p>63℃ ,30분 건강한 저온살균</p>
+                        <p data-aos="fade-down" data-aos-duration="1200">63℃ ,30분 건강한 저온살균</p>
                         <div class="next">다음 버튼</div>
                     </div>
                     <h2>목장부터 까다롭게 관리한 살아있는 우유<br>국내 최초 <span>"저온살균우유 파스퇴르"</span></h2>
@@ -170,21 +206,21 @@
                     <p class="mobile_txt">파스퇴르는 1987년 국내 최초 저온살균우유<br>‘파스퇴르 후레쉬우유’를 출시한 이래,<br>농후 발효유 ‘쾌변’, MSD공법 ‘위드맘(With Mom)’ 등<br> 수많은 고품격 유제품을 출시하며<br>유제품 전문브랜드로 성장해왔습니다.</p>
                     <!-- product -->
                     <div class="product">
-                        <section class="product1">
+                        <section class="product1" data-aos="fade-down" data-aos-duration="1200">
                             <div class="img1">우유팩</div>
                             <div class="bot1">
                             <h3>무항생제인증 바른목장 우유(팩)</h3>
                             <p>국가로부터 엄격한 기준에 의해, '친환경 무항생제 인증'을 받은 목장만 집유하여 생산한 우유.</p>
                             </div>
                         </section>
-                        <section class="product2">
+                        <section class="product2" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
                             <div class="img1">그릭요거트</div>
                             <div class="bot1">
                             <h3>바른목장 GREEK STYLE YOGURT</h3>
                             <p>무항생제 인증 목장 원유로 만든 건강한 디저트 ! 더욱 부드럽고 진한 GREEK STYLE YOGURT</p>
                             </div>
                         </section>
-                        <section class="product3">
+                        <section class="product3" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400">
                             <div class="img1">요구르트</div>
                             <div class="bot1">
                             <h3>오직 우유 100%로 만든 요구르트</h3>
@@ -244,5 +280,8 @@
         <div class="mask"></div>
         <!-- scrollTop -->
         <a class="scrollTop"></a>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

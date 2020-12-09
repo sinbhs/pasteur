@@ -93,7 +93,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
      .container header nav .nav {margin-left:auto; margin-right:auto;}
      .container header nav .nav li{position: relative;}
      .container header .gnb .nav li a {width:120px; font-size:18px;}
-     .container header nav .nav li a:hover{color:#00ad53; border-bottom:3px solid #3e5d40;}
+     .container header nav .nav li:hover > a{color:#00ad53; border-bottom:3px solid #3e5d40;}
 
      /* side menu */
      .container header nav .nav .side_menu {position: absolute; background-color: #fff; color:#000000; opacity:0; display: flex; flex-direction: column; display: none;}
