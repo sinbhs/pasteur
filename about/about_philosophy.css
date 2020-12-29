@@ -11,7 +11,10 @@ img {vertical-align: top;}
 /* font setting */
 body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Apple SD Gothic Neo",sans-serif; text-align: center; color:#121f38;}
 
-/*==============    Mobile     ==============*/
+/*==============    Mobile      ==============*/
+/* container */
+.container {overflow: hidden;}
+
 /* main banner */
 .container .mainbn {position: absolute; top: 73px; left: 0; width: 100%; height:542px; z-index: -1; background: url(../images/mainbn.png) no-repeat 50% 20%/cover; text-indent: -9999px;}
 
@@ -43,19 +46,23 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 .container .main_banner .about_list li {flex:auto;}
 .container .main_banner .about_list li a {text-decoration: none; color:#fff; display: block; height:58px; line-height: 58px; font-size: 13px; padding:0 12px; background-color: #3e5d40b3;}
 .container .main_banner .about_list li a:hover {background-color: #567e5e94;}
-.container .main_banner .about_list li:nth-child(2) a {background-color: #fff; color:#1b1d1f;}
+.container .main_banner .about_list li:nth-child(3) a {background-color: #fff; color:#1b1d1f;}
 
 /* contents */
-.container .contents {padding:0 15px; text-align: left; max-width:619px; margin:0 auto;}
-.container .contents h2 {font-size:20px; margin-bottom:40px; font-weight: normal; line-height: 1.5;}
+.container .contents {margin:0 auto;}
+.container .contents h2 {font-size:25px; margin-bottom:40px; font-weight: normal; line-height: 1.5;}
 .container .contents p {font-family: 'Noto Sans KR', sans-serif; color:#1b1d1f; margin-bottom:20px; font-size: 14px; line-height: 1.5; letter-spacing: -0.4px;}
 
 /* content1 */
-.container .contents .content1 > img,.container .contents .content2 > img,.container .contents .content3 > img {max-width:100%; margin-bottom:24px; vertical-align: top; }
-.container .contents .content1 .txt1 img {width:180px; vertical-align: top; margin-bottom:5px;}
+.container .contents .content1 {padding: 50px 15px; margin: 42px 0 50px; background-color: #f8f8f8;}
+.container .contents .content1 h2 {position: relative;}
+.container .contents .content1 h2:after {content: ''; display: block; width: 90px; height: 3px; background-color: rgba(0,0,0,0.2); position: absolute; transform: translateX(-50%); bottom: -20px; left: 50%;}
+.container .contents .content1 p {font-size: 18px;}
 
 /* content2 */
-.container .contents .content2 {margin-bottom: 60px;}
+.container .contents .content2 {text-align: left; padding: 0 15px; margin-bottom: 60px;}
+.container .contents .content2 div {margin-bottom: 50px; border-bottom: 1px solid #ddd;}
+.container .contents .content2 div:last-of-type {border: none;}
 
 /* footer */
 .container footer {background-color: #3e5d40; color:#fff; padding:30px 4%; text-transform: uppercase; font-size:13px;}
@@ -97,17 +104,13 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
      .container .main_banner .about_list li a{font-size: 16px;}
 
      /* contents */
-     .container .contents {margin-top:135px; max-width: 100%; padding:0 12.55%;}
+     .container .contents {padding:0 12.55%;}
      .container .contents h2 {font-size: 35px; margin: 0 0 50px;}
      .container .contents p {font-size:16px;}
 
      /* content1 */
-     .container .contents .content1 .txt1 {padding-left: 55px;}
-     .container .contents .content1 {margin-bottom: 80px;display: flex; justify-content: space-between;}
-     .container .contents .content1 > img {padding-left: 4vw;}
-     .container .contents .content1 .txt1 {display: flex; flex-direction: column; justify-content: center; width:50%;}
-     .container .contents .content1 p {max-width:650px;}
-     .container .contents .content1 > img {margin-bottom:0;}
+     .container .contents .content1 {padding: 100px; margin-bottom: 80px;}
+     .container .contents .content1 br {display: none;}
 
      /* content2 */
     .container .contents .content2 {padding:20px;}
