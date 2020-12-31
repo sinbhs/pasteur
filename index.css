@@ -212,14 +212,15 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 
      /* int3 */
      .container .introduce .int3 .subbn {height:700px; top:-350px; width:81.77%; left:50%; transform:translateX(-50%);}
-     .container .introduce .int3 .subbn .prev {margin-left:30px; width:20px; height:37px;}
-     .container .introduce .int3 .subbn .next {margin-right:30px; width:20px; height:37px; background-position:-20px;}
      .container .introduce .int3 {padding:0 5rem; margin-top:560px;}
      .container .introduce .int3 .subbn p {font-size: 38px;}
      .container .introduce .int3 h2 {padding:460px 0 20px; font-size:38px;}
      .container .introduce .int3 p {font-size:16px; margin-bottom:135px;}
      .container .introduce .int3 .pc_txt {display: block;}
      .container .introduce .int3 .mobile_txt {display: none;}
+        /* swiper slider */
+            /* pagination css */
+            .swiper-pagination-bullet {width: 25px; height: 5px;}
 
      /* product */
      .container .product {flex-direction: row; justify-content: center; max-width:1470px; margin:0 auto; padding-bottom:160px;}
