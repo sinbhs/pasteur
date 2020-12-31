@@ -29,12 +29,15 @@
         <meta name="theme-color" content="#ffffff">
         <!-- normalize -->
         <link rel="stylesheet" href="common/normalize.css">
+        <!-- swiper -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <!-- aos -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- index -->
         <link rel="stylesheet" href="index.css">
         <!-- js -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/index.js"></script>
     </head>
@@ -196,10 +199,20 @@
                 </div>
                 <!-- center banner -->
                 <div class="int3">
-                    <div class="subbn">
-                        <div class="prev">이전 버튼</div>
-                        <p data-aos="fade-down" data-aos-duration="1200">63℃, 30분 건강한 저온살균</p>
-                        <div class="next">다음 버튼</div>
+                    <div class="subbn swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide banner1">
+                                <p data-aos="fade-down" data-aos-duration="1200">63℃, 30분 건강한 저온살균</p>
+                            </div>
+                            <div class="swiper-slide banner2">
+                                <p data-aos="fade-down" data-aos-duration="1200">63℃, 30분 건강한 저온살균</p>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                     <h2>목장부터 까다롭게 관리한 살아있는 우유<br>국내 최초 <span>"저온살균우유 파스퇴르"</span></h2>
                     <p class="pc_txt">파스퇴르는 1987년 국내 최초 저온살균우유‘파스퇴르 후레쉬우유’를 출시한 이래,<br>농후 발효유 ‘쾌변’, MSD공법 ‘위드맘(With Mom)’ 등 수많은 고품격 유제품을 출시하며<br>유제품 전문브랜드로 성장해왔습니다.</p>

@@ -69,13 +69,19 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
 
 /* introduce int3 */
 .container .introduce .int3 {background-color: #95c9954d; padding:0 4%; position: relative; margin-top:363px;}
-.container .introduce .int3 .subbn {position: absolute; top:-192.5px; width: 92%;height:385px; background: url(images/subbn.png) no-repeat 50% 100%/cover; display: flex; justify-content: space-between; align-items: center;}
-.container .introduce .int3 .subbn p {color:#fff; font-size:20px; margin:0;}
+.container .introduce .int3 .subbn {position: absolute; top:-192.5px; width: 92%; height:385px;}
+.container .introduce .int3 .subbn p {color:#fff; font-size:20px; margin:0; text-shadow: 3px 3px 10px #0000003d;}
 
-/* slider */
-.container .introduce .int3 .subbn div {background: url(images/slidersplash.png) no-repeat 0 0/cover; width:15px; height:26px; text-indent: -9999px; cursor:pointer;}
-.container .introduce .int3 .subbn .prev {margin-left:10px;}
-.container .introduce .int3 .subbn .next {background-position: -15px; margin-right: 10px;}
+/* swiper slider */
+.container .introduce .int3 .swiper-container .swiper-wrapper .swiper-slide { display: flex; justify-content: center; align-items: center;}
+.container .introduce .int3 .swiper-container .swiper-wrapper .banner1 {background: url(images/subbn.png) no-repeat 50% 100%/cover;}
+.container .introduce .int3 .swiper-container .swiper-wrapper .banner2 {background: url(images/subbn2.jpg) no-repeat 50% 100%/cover;}
+    /* navigation css */
+    .swiper-button-next, .swiper-button-prev {color: #fff;}
+    /* pagination css */
+    .swiper-pagination-bullet {border-radius: 0; width: 20px; height: 3px;}
+    .swiper-pagination-bullet-active {background-color:#3e5d40;}
+
 .container .introduce .int3 h2 {font-size:19px; font-weight: normal; color:#121f38; padding:256px 0 25px; font-family:'KoreanSWGI1R',sans-serif;}
 .container .introduce .int3 h2 span {color:#00ad53;}
 .container .introduce .int3 p {margin:0; margin-bottom: 78px; font-size: 14px; color:#4f4f4f;}
