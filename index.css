@@ -211,7 +211,7 @@ body{margin:0; font-family: 'KoreanSWGI1R','Noto Sans KR',"Helvetica Neue","Appl
      .container .introduce .int2 p {margin-bottom: 60px;}
 
      /* int3 */
-     .container .introduce .int3 .subbn {height:700px; top:-350px; width:81.77%; left:50%; transform:translateX(-50%);}
+     .container .introduce .int3 .subbn {height:700px; top:-350px; width:81.77%; left:50%; transform:translateX(-50%); overflow: hidden;}
      .container .introduce .int3 {padding:0 5rem; margin-top:560px;}
      .container .introduce .int3 .subbn p {font-size: 38px;}
      .container .introduce .int3 h2 {padding:460px 0 20px; font-size:38px;}
